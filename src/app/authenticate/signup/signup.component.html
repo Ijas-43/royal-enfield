@@ -1,0 +1,58 @@
+
+<div class="container mt-5">
+    <div class="row no-gutters shadow-lg bg-white">
+        <div class="col-md-6 d-none d-md-block">
+            <!-- <img src="assets/images/signup.jpg" class="img-fluid" style="min-height:100%;" alt="login"> -->
+
+            <div id="carouselExampleFade" class="m-1 carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/login/login-1.jpg" class="d-block w-100" alt="login-img-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/login/login-2.jpg" class="d-block w-100" alt="login-img-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/login/login-3.jpg" class="d-block w-100" alt="login-img-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev target " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden ">Previous</span>
+                </button>
+                <button class="carousel-control-next target" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col-md-6 bg-white p-5">
+            <h3 class="pb-3 text-center">Sign Up Form</h3>
+            <div class="form-style">
+                <form>
+                    <div class="form-group pb-3">
+                        <input type="text" name="name" id="exampleInputText" placeholder="Name" class="form-control" aria-describedby="name">
+                    </div>
+                    <div class="form-group pb-3">
+                        <input type="email" name="email" id="exampleInputEmail1" placeholder="email" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group pb-3">
+                        <input type="tel" name="email" id="exampleInputtel1" placeholder="phone" class="form-control">
+                    </div>
+                    <div class="form-group pb-3">
+                        <input type="password" name="pass" id="exampleInputPassword1" placeholder="password" class="form-control">
+                    </div>
+                    <div class="pb-2">
+                        <button type="submit" class="btn btn-dark w-100 font-weight-bold mt-2" routerLink="/login">Submit</button></div>
+                </form>
+                <div class="slideline">OR</div>
+                <div>
+                    <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;Login With Facebook</button>
+                </div>
+                <div class="pt-4 text-center">
+                    Already do you have account ?. <a href="#" routerLink="/login" class="text-decoration-none">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

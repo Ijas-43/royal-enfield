@@ -1,0 +1,53 @@
+.service-banner-1{
+   width: 110%;
+   margin-left: -24px;
+    }
+.service-banner-1:hover{
+    opacity: 0.5;
+}
+.service-banner-2{
+    width: 105%;
+}
+.service-banner-2:hover{
+    opacity: 0.5;
+}
+.service-banner-3{
+  width: 494px;
+}
+.service-banner-3:hover{
+    opacity: 0.5;
+}
+.bg-service-img{
+    background-image: url("/assets/service/service-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booking-heading{
+    margin-top: 300px;
+}
+.booking-toll{
+    margin-top: 200px;
+}
+.booking-number{
+    font-size: large;
+}
+ .form-control{
+    border: 0;
+    height: 50px;
+    border-radius: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.form-control:focus
+{
+    border-bottom: 1px solid #007bff;
+    box-shadow: none;
+    outline: 0;
+    background-color: #ebebeb;
+}
+.disclaimer{
+    text-align: justify;
+}
+a:hover{
+color: red !important;
+}

@@ -1,0 +1,30 @@
+.banner-1{
+    width: 100%;
+    height: 600px;
+    
+}
+.wheel{
+    width:100%;
+    height: 305px;
+}
+
+
+.engine{
+    letter-spacing: 2px;
+    font-size: 20px;
+    position: relative;
+}
+.engine:after{
+    content: "";
+    height: 3px;
+    width:10%;
+    background-color: #007bff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+.sub{
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+}
